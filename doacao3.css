@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(45deg, cyan, limegreen);
+  color: #333;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  background-color: #f9f9f9;
+}
+
+.botao-concluir {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-concluir:hover {
+  background-color: #45a049;
+}
+
+.pix-instrucoes p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
